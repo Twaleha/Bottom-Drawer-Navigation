@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Growiser/app/src/main/res/drawable/bg_bottm.xml" value="0.1425" />
+        <entry key="..\:/Growiser/app/src/main/res/drawable/ic_hamburger_menu.xml" value="0.1" />
+        <entry key="..\:/Growiser/app/src/main/res/drawable/location.xml" value="0.126" />
+        <entry key="..\:/Growiser/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Growiser/app/src/main/res/layout/app_bar_main.xml" value="0.1082427536231884" />
+        <entry key="..\:/Growiser/app/src/main/res/layout/content_main.xml" value="0.1082427536231884" />
+        <entry key="..\:/Growiser/app/src/main/res/layout/fragment_help.xml" value="0.1" />
+        <entry key="..\:/Growiser/app/src/main/res/layout/fragment_home.xml" value="0.16893115942028986" />
+        <entry key="..\:/Growiser/app/src/main/res/layout/fragment_location.xml" value="0.1" />
+        <entry key="..\:/Growiser/app/src/main/res/layout/fragment_setting.xml" value="0.1109375" />
+        <entry key="..\:/Growiser/app/src/main/res/menu/bottom_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Growiser/app/src/main/res/menu/drawer_main.xml" value="0.1" />
+        <entry key="..\:/Growiser/app/src/main/res/menu/main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Drawer.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/sea"
+            app:popupTheme="@style/Theme.Drawer.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?actionBarSize"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <nl.joery.animatedbottombar.AnimatedBottomBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_bottm"
+            android:id="@+id/bottom_nav"
+            android:elevation="5dp"
+            app:abb_animationDuration="500"
+            app:abb_animationInterpolator="@android:anim/overshoot_interpolator"
+            app:abb_indicatorAppearance="round"
+            app:abb_indicatorColor="@color/white"
+            app:abb_indicatorHeight="5dp"
+            app:abb_indicatorMargin="30dp"
+            app:abb_selectedIndex="1"
+            app:abb_selectedTabType="icon"
+            app:abb_tabAnimation="slide"
+            app:abb_tabColorSelected="@color/white"
+            app:abb_tabs="@menu/bottom_main"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
